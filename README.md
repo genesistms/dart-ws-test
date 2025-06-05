@@ -65,7 +65,7 @@ sed -i 's/# //' pubspec.yaml app/a/pubspec.yaml
 ```
 
 ```bash
-dart pub -C app/a get
+dart pub get
 (cd app/a; dart run build_runner build)
 dart analyze
 ```

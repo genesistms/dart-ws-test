@@ -1,0 +1,10 @@
+# How to test
+
+```
+dart pub -C app/a get
+dart run build_runner build 
+dart analyze
+```
+
+Everything is fine
+

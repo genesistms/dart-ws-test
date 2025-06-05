@@ -1,0 +1,3 @@
+class TaskClass {
+  const TaskClass();
+}

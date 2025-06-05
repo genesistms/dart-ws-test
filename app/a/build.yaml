@@ -1,0 +1,8 @@
+builders:
+  task_builder:
+    import: "package:a/builders.dart"
+    builder_factories: [taskBuilder]
+    build_to: cache
+    auto_apply: root_package
+    build_extensions:
+      .dart: [.task.dart]

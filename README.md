@@ -70,7 +70,7 @@ dart pub -C app/a get
 dart analyze
 ```
 
-Analyzer found errors "Target of URI doesn't exist
+Analyzer found errors "Target of URI doesn't exist"
 
 Filesystem:
 
@@ -125,3 +125,10 @@ dart analyze
 ```
 
 Everything is fine now
+
+reset
+
+```bash
+git clean -fdx
+git checkout .
+```
